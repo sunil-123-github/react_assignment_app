@@ -1,0 +1,111 @@
+.home_bg {
+    background-image: url('../../assests/Home_Page/NRB_hp_img.png');
+    background-size: cover;
+    /* This ensures the image covers the entire background */
+    background-position: center;
+    /* This centers the image within the container */
+    background-repeat: no-repeat;
+    /* This prevents the image from repeating */
+}
+
+.body {
+    margin: 0;
+    /* Remove default body margin */
+}
+
+.img {
+    height: 100vh;
+    width: auto;
+    /* Maintain the aspect ratio of the image */
+    display: block;
+    /* Remove any extra spacing below the image */
+}
+
+.content {
+    text-align: center;
+    top: 217px;
+    left: 920px;
+    width: 311px;
+    height: 21px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal medium 16px/21px Roboto;
+    letter-spacing: 0px;
+    color: #848484;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.horizontal-bar {
+
+    /* UI Properties */
+    border-bottom: 1px solid #707070;
+    opacity: 0.66;
+    margin: auto;
+    width: 448px;
+}
+
+.margin-top {
+    margin-top: 28px;
+}
+
+.signin {
+    padding-top: 25px;
+    padding-left: 43px;
+    text-align: left;
+    font: normal normal normal 26px/34px Roboto;
+    letter-spacing: 0px;
+    color: #13486D;
+    opacity: 1;
+}
+
+.email {
+    padding-left:85px !important;
+    margin-left: 27px;
+    border: none;
+    width: 454px;
+    height: 57px;
+    background: #F2F2F2 0% 0% no-repeat padding-box;
+    border-radius: 7px;
+    opacity: 1;
+}
+
+
+input::placeholder {
+    margin-left: 40px;
+    color:#000000;
+    font-weight: bold;
+    /* Add any other styles you want for the placeholder text */
+}
+
+*:focus {
+    outline: none;
+}
+
+
+.input-container {
+    position: relative;
+}
+
+.logo-icon {
+    position: absolute;
+    left:80px;
+    /* Adjust the left position as needed */
+    top: 50%;
+    transform: translateY(-50%);
+    width: 27px;
+    /* Set the width of your logo */
+    height: 21px;
+    /* Set the height of your logo */
+    background-image: url('../../assests/Home_Page/ic_mail_outline_24px@2x.png');
+    /* Replace with the path to your logo image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Additional styling for the input, e.g., padding to prevent text from overlapping with the icon */
+.email {
+    padding-left: 30px;
+    /* Adjust the padding as needed */
+}
