@@ -22,7 +22,7 @@ export const Header = () => {
                                 <div className="vertical-bar" />
                             </li>
                             <li className="nav-item branch">
-                                <span className="">Branch - Waluj</span>
+                                <span className="">Branch - Walunj</span>
                             </li>
                         </ul>
                     </div>

@@ -4,7 +4,7 @@
     background: transparent url('img/Image 3.png') 0% 0% no-repeat padding-box;
     border-radius: 38px;
     opacity: 1;
-    background: #FFFFFF !important;
+    background:white !important;
 }
 
 .Mask_Group {
@@ -82,3 +82,4 @@
     margin-top: 23px;
     margin-left: 10px
 }
+

@@ -1,5 +1,5 @@
 .home_bg {
-    background-image: url('../../assests/Home_Page/NRB_hp_img.png');
+    background-image: url('../../assests/Home_Page/IMG.png');
     background-size: cover;
     /* This ensures the image covers the entire background */
     background-position: center;
@@ -108,4 +108,9 @@ input::placeholder {
 .email {
     padding-left: 30px;
     /* Adjust the padding as needed */
+}
+
+.click-btn{
+    width: 72px;
+    height: 72px;
 }

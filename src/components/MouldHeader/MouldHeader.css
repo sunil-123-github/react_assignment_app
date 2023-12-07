@@ -1,0 +1,32 @@
+.mouldheader{
+    height:69px;
+    background: #00000029 0% 0% no-repeat padding-box;
+    opacity: 0.59;
+}
+
+
+.flex-container {
+    display: flex;
+    /* height: 200px; */
+    align-items: center;
+    /* background-color: DodgerBlue; */
+  }
+  
+  .flex-container > div {
+    /* background-color: #f1f1f1; */
+    /* width: 100px;
+    margin: 10px; */
+    text-align: center;
+    /* line-height: 75px;
+    font-size: 30px; */
+  }
+
+.nav-1 ,
+.nav-2{
+    color:#13496D !important;
+    font-weight:500;
+}
+
+.active-link{
+    border-bottom: 5px solid green;
+}

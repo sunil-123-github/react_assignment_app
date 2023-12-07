@@ -2,10 +2,10 @@ import React from 'react'
 import '../Home/Home.css'
 import iconNRB from '../../assests//Home_Page/iconNRB.png'
 import logo from '../../assests/Home_Page/logo.png'
+import button from '../../assests/Home_Page/button.png'
+
 
 export const Home = () => {
-
-
 
     return (
         <>
@@ -14,7 +14,7 @@ export const Home = () => {
                     <div className="col-md-8 home_bg img p-0" style={{ width: '61%' }}>
                     </div>
                     <div className="col-md-4" style={{ width: '39%' }}>
-                        <div className="row p-0" style={{ marginTop: '61px' }}>
+                        <div className="row p-0" style={{ marginTop: '51px' }}>
                             <div className="col p-0">
                                 <img src={logo} alt="" style={{ width: '164px', height: '164px', marginLeft: '39px' }} />
                             </div>
@@ -38,7 +38,9 @@ export const Home = () => {
                             </div>
                         </div>
                         <div className="row">
-                          
+                            <div className="col d-flex mt-5">
+                            <img src={button} alt="Click Button" className='click-btn m-auto' />
+                            </div>        
                         </div>
                     </div>
                 </div>
