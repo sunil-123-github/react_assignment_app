@@ -8,7 +8,7 @@ import account from '../../assests/Navbar_Images/account.png'
 export const Header = () => {
     return (
         <>
-            <nav className="navbar navbar-expand-lg navbar-light bg-light header">
+            <nav className="navbar navbar-expand-lg navbar-light  header">
                 <div className="container-fluid">
                     <div className="navbar-brand">
                         <ul className="navbar-nav me-auto  mb-lg-0">
@@ -41,7 +41,7 @@ export const Header = () => {
                                 <img src={account} alt="" />
                             </li>
                             <li className="nav-item dropdown-icon">
-                                <i class="bi bi-caret-down-fill"></i>
+                                <i className="bi bi-caret-down-fill"></i>
                             </li>
                         </ul>
                     </div>

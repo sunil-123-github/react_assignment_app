@@ -1,0 +1,47 @@
+.left-margin {
+    margin-left: 19px;
+}
+
+.right-margin {
+    margin-right: 19px;
+}
+
+.mould-heading {
+    /* UI Properties */
+    margin-top: 25px;
+    text-align: left;
+    font: normal normal bold 20px/26px Roboto;
+    letter-spacing: 0px;
+    color: #040001;
+    opacity: 1;
+}
+
+.mould-record {
+    margin-top: 25px;
+    width: 260px;
+    border: none;
+    height: 40px;
+    background: #13496C 0% 0% no-repeat padding-box;
+    opacity: 1;
+    font-size: 14px;
+    height: 40px;
+}
+
+.table-padding {
+    padding: 28px;
+    padding-left: 28px;
+}
+
+.table-head {
+    --bs-table-bg: #BDCDD8;
+}
+
+.MouldMFGTrack {
+    background: #E9E9E9;
+}
+
+.table {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+}
