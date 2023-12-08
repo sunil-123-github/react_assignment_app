@@ -12,6 +12,10 @@ export const MouldHeader = () => {
     navigate('/assign-mould-(supplier&life)')
   };
 
+  const handleNavigation2 = () => {
+  
+  }
+
   let activeclassName;
   let location = useLocation()
   const currentURL = location.pathname;

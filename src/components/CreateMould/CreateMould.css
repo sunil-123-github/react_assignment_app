@@ -1,0 +1,75 @@
+.bi-arrow-left {
+    font-size: x-large;
+    cursor: pointer;
+}
+
+.bi-x-lg {
+    font-size: x-large;
+    cursor: pointer;
+}
+
+.CreateMould {
+    background: #E9E9E9;
+}
+
+.padding {
+    padding-top: 12px;
+    padding-left: 15px;
+    padding-right: 19px;
+}
+
+.mould-form {
+    padding-bottom: 10px;
+    padding-left: 25px;
+    margin-top: 12px;
+    margin-left: 15px;
+    margin-right: 19px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+}
+
+.create-mould {
+    margin-left: 17px;
+    font-size: 20px;
+    text-align: left;
+    font: normal normal bold 20px/16px Roboto;
+    letter-spacing: 0px;
+    color: #040001;
+    opacity: 1;
+}
+
+.mould-heading {
+    text-align: left;
+    font: normal normal bold 20px/5px Roboto;
+    letter-spacing: 0px;
+    color: #13496C;
+    opacity: 1;
+    font-weight: bold;
+}
+
+.part-number {
+    width: 332px;
+    height: 32px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #979797;
+    opacity: 1;
+}
+
+.create-record-btn {
+    background: #13496C 0% 0% no-repeat padding-box;
+    opacity: 1;
+    color: #E9E9E9;
+    border: none;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.cancel-btn {
+    background: #BFC1C2 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-right: 20px;
+    border: none;
+    font-weight: bold;
+    padding: 5px;
+}

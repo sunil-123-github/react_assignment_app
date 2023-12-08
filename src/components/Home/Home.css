@@ -71,7 +71,7 @@
 }
 
 
-input::placeholder {
+.email::placeholder {
     margin-left: 40px;
     color:#000000;
     font-weight: bold;
