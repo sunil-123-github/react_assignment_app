@@ -4,6 +4,8 @@ import MouldRecords from "../Slices/MouldRecords";
 const store = configureStore({
     reducer : {
       MouldRecords : MouldRecords.reducer,
+     // MouldsWithId : MouldsWithId.reducer,
+
     }
 })
 

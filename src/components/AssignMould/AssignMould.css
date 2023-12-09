@@ -1,0 +1,20 @@
+.ViewButton {
+    border: 1px solid #13496C;
+    opacity: 1;
+    color: #13496C;
+    background: #ffffff;
+    width: 174px;
+    font-weight: 500;
+    height: 30px;
+}
+
+.heading {
+    color: #040001;
+    text-align: left;
+    font: normal normal medium 20px/26px Roboto;
+    letter-spacing: 0px;
+    color: #040001;
+    opacity: 1;
+    font-weight:500;
+    margin-top: 12px;
+}

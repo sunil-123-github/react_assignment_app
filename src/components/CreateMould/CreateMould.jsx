@@ -44,8 +44,18 @@ export const CreateMould = () => {
             status: Status,
         }
        
+        // function addUniqueId(obj) {
+        //     const id = Math.random().toString().substring(2);
+        //     return { id, ...obj };
+        //   }
+          
+        //   const dataWithId = addUniqueId(obj);
+          
+          
+
         dispatch(addRecord(obj));
         navigate('/new-mould-mfg-tracking')
+
     }
 
 
@@ -77,7 +87,7 @@ export const CreateMould = () => {
                             </div>
                             <div className="row mt-2">
                                 <div className="col-4">
-                                    <label for="fname" className='fw-bold'>Part Number</label><br />
+                                    <label  className='fw-bold'>Part Number</label><br />
                                     <select name="cars" id="cars" value={selectedValue} onChange={handleSelectChange} className='part-number'>
                                         <option value="volvo">Select</option>
                                         <option value="YTDG5432761">YTDG5432761</option>
@@ -90,7 +100,7 @@ export const CreateMould = () => {
                                     </select>
                                 </div>
                                 <div className="col-4">
-                                    <label for="fname" className='fw-bold'>Mould Number</label><br />
+                                    <label className='fw-bold'>Mould Number</label><br />
                                     <input type="number"
                                         id="numberField"
                                         value={numberValue}
@@ -98,7 +108,7 @@ export const CreateMould = () => {
                                         className='part-number' />
                                 </div>
                                 <div className="col-4">
-                                    <label for="fname" className='fw-bold'>Number of Cavities</label><br />
+                                    <label className='fw-bold'>Number of Cavities</label><br />
                                     <select name="cars" id="cars"
                                         value={cavities}
                                         className='part-number'
@@ -122,7 +132,7 @@ export const CreateMould = () => {
                             <div className="row mt-2">
                                 <div className="col">
                                     <div className="col-4">
-                                        <label for="fname" className='fw-bold'>Mould Item Code</label><br />
+                                        <label  className='fw-bold'>Mould Item Code</label><br />
                                         <input type="text" id="fname" name="fname" placeholder='Code' className='part-number' />
                                     </div>
                                 </div>
@@ -135,11 +145,11 @@ export const CreateMould = () => {
                             </div>
                             <div className="row mt-2">
                                 <div className="col-4">
-                                    <label for="fname" className='fw-bold'>Mould Material</label><br />
+                                    <label  className='fw-bold'>Mould Material</label><br />
                                     <input type="text" id="fname" name="fname" placeholder='Enter Mould Material' className='part-number' />
                                 </div>
                                 <div className="col-4">
-                                    <label for="fname" className='fw-bold'>Status</label><br />
+                                    <label  className='fw-bold'>Status</label><br />
                                     <select name="cars"
                                         id="cars"
                                         className='part-number'
@@ -155,13 +165,13 @@ export const CreateMould = () => {
 
                                 </div>
                                 <div className="col-4">
-                                    <label for="fname" className='fw-bold'>Customer</label><br />
+                                    <label  className='fw-bold'>Customer</label><br />
                                     <input type="text" id="fname" name="fname" placeholder='Enter Customer ABC' className='part-number' />
                                 </div>
                             </div>
                             <div className="row mt-2">
                                 <div className="col-4">
-                                    <label for="fname" className='fw-bold'>Direct / Indirect</label><br />
+                                    <label  className='fw-bold'>Direct / Indirect</label><br />
                                     <select name="cars" id="cars" className='part-number'>
                                         <option value="volvo">Select</option>
                                         <option value="saab">Saab</option>
@@ -170,17 +180,17 @@ export const CreateMould = () => {
                                     </select>
                                 </div>
                                 <div className="col-4">
-                                    <label for="fname" className='fw-bold'>Buyer Email Id</label><br />
+                                    <label className='fw-bold'>Buyer Email Id</label><br />
                                     <input type="text" id="fname" name="fname" className='part-number' placeholder='Email' />
                                 </div>
                                 <div className="col-4">
-                                    <label for="fname" className='fw-bold'>Quality Email Id</label><br />
+                                    <label className='fw-bold'>Quality Email Id</label><br />
                                     <input type="text" id="fname" name="fname" className='part-number' placeholder='Email' />
                                 </div>
                             </div>
                             <div className="row mt-2">
                                 <div className="col-4">
-                                    <label for="fname" className='fw-bold'>Description</label><br />
+                                    <label  className='fw-bold'>Description</label><br />
                                     <input
                                         type="text"
                                         id="fname" name="fname"

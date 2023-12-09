@@ -3,9 +3,16 @@ import '../Home/Home.css'
 import iconNRB from '../../assests//Home_Page/iconNRB.png'
 import logo from '../../assests/Home_Page/logo.png'
 import button from '../../assests/Home_Page/button.png'
-
+import { useNavigate } from 'react-router-dom'
 
 export const Home = () => {
+
+    let navigate = useNavigate()
+
+    function goApp() {
+        navigate('/new-mould-mfg-tracking')
+    }
+
 
     return (
         <>
@@ -39,8 +46,11 @@ export const Home = () => {
                         </div>
                         <div className="row">
                             <div className="col d-flex mt-5">
-                            <img src={button} alt="Click Button" className='click-btn m-auto' />
-                            </div>        
+                                <button onClick={goApp} className='m-auto border-0 bg-white'>
+                                    <img src={button} alt="Click Button" className='click-btn m-auto' />
+                                </button>
+
+                            </div>
                         </div>
                     </div>
                 </div>

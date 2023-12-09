@@ -27,7 +27,7 @@ let initialState = [
 
 const MouldRecords = createSlice({
     name: 'MouldRecords',
-    initialState,
+    initialState : [],
     reducers: {
         addRecord: (state, action) => {
             state.push(action.payload)

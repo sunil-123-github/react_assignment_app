@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import '../MouldRecord/MouldMfgTrack.css'
 import AddIcon from '../../assests/MouldMfgTrack/AddIcon.svg'
 import { useSelector } from 'react-redux'
+import { useDispatch } from 'react-redux'
 
 
 export const MouldMfgTrack = () => {
@@ -13,6 +14,9 @@ export const MouldMfgTrack = () => {
     const MouldRecords = useSelector((state) => {
         return state.MouldRecords
     })
+    
+  
+    
     
 
     return (
@@ -42,7 +46,7 @@ export const MouldMfgTrack = () => {
                                     <th scope="col">Mould Number <i className="bi bi-arrow-down-up fw-bold"></i></th>
                                     <th scope="col">No Of Cavities <i className="bi bi-arrow-down-up fw-bold"></i></th>
                                     <th scope="col">Description</th>
-                                    <th scope="col">Status <i class="bi bi-arrow-down-up"></i></th>
+                                    <th scope="col">Status <i className="bi bi-arrow-down-up"></i></th>
                                 </tr>
                             </thead>
                             <tbody>
